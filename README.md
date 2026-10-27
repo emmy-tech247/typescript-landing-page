@@ -1,8 +1,22 @@
 # TypeScript Landing Page
 
-A modern landing page project built with TypeScript, focused on clean code, maintainability, responsive design, and a professional web experience.
+A modern landing page project built with TypeScript, React, and Vite, focused on clean code, maintainability, responsive design, and a professional web experience.
 
 **Repository:** [emmy-tech247/typscript-landing-page](https://github.com/emmy-tech247/typscript-landing-page)
+
+## Screenshots
+
+### 1. Homepage
+
+![TypeScript Landing Page Homepage](screenshots/homepage.png)
+
+### 2. Features Section
+
+![TypeScript Landing Page Features](screenshots/features.png)
+
+### 3. Responsive Mobile View
+
+![TypeScript Landing Page Mobile View](screenshots/mobile-view.png)
 
 ## Overview
 
@@ -13,18 +27,21 @@ The project emphasizes readable code, structured development, and a maintainable
 ## Features
 
 - TypeScript-powered development
+- React component-based architecture
+- Vite development and build tooling
 - Modern landing page structure
 - Maintainable and organized code
-- Foundation for responsive web design
+- Responsive design
 - Extendable structure for additional sections and functionality
 - GitHub-based version control
-- Ready for further customization and deployment
+- Ready for customization and deployment
 
 ## Technology Stack
 
 - **Language:** TypeScript
+- **Frontend:** React
+- **Build tool:** Vite
 - **Runtime and package management:** Node.js and npm
-- **Build tools:** Vite, if configured in the project
 - **Version control:** Git and GitHub
 
 ## Getting Started
@@ -65,13 +82,11 @@ npm install
 
 ### 4. Start the development server
 
-If the project uses Vite, run:
-
 ```bash
 npm run dev
 ```
 
-If that command is not available, check the `scripts` section in `package.json` for the correct development command.
+Open the local URL displayed in your terminal, usually `http://localhost:5173/`.
 
 ### 5. Build the project
 
@@ -79,34 +94,43 @@ If that command is not available, check the `scripts` section in `package.json` 
 npm run build
 ```
 
-Resolve any TypeScript or build errors before deploying the project.
+Resolve any TypeScript or build errors before deploying.
 
 ## Project Structure
 
-The exact structure depends on the files included in the repository. A typical TypeScript frontend project may contain:
-
 ```text
 typscript-landing-page/
-├── public/          # Public assets
-├── src/             # Application source code
-├── index.html       # HTML entry point, if applicable
-├── package.json     # Dependencies and scripts
-├── tsconfig.json    # TypeScript configuration
-├── vite.config.ts   # Vite configuration, if applicable
-└── README.md        # Project documentation
+├── public/
+├── screenshots/
+│   ├── homepage.png
+│   ├── features.png
+│   └── mobile-view.png
+├── src/
+│   ├── App.tsx
+│   └── main.tsx
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.js
+└── README.md
 ```
+
+*The structure above is illustrative. Keep the actual filenames and folders used in your project.*
 
 ## Deployment
 
-The project can be deployed using a hosting provider that supports its build setup.
-
-Potential options include:
+The project can be deployed using a hosting provider that supports Vite applications.
 
 - [Netlify](https://www.netlify.com/)
 - [Cloudflare Pages](https://pages.cloudflare.com/)
 - [Vercel](https://vercel.com/)
 
-For a Vite-based project, configure the build command as `npm run build` and the publish directory as `dist`, provided that the build produces that directory.
+For a Vite-based project, use:
+
+- **Build command:** `npm run build`
+- **Publish directory:** `dist`
+
+Ensure the production build succeeds before deploying.
 
 ## Future Improvements
 
@@ -126,9 +150,9 @@ Potential enhancements include:
 
 Full-Stack Developer
 
-- GitHub: [@emmy-tech247](https://github.com/emmy-tech247)
-- Portfolio: [emmanuel-alao-portfolio.vercel.app](https://emmanuel-alao-portfolio.vercel.app)
+- **GitHub:** [@emmy-tech247](https://github.com/emmy-tech247)
+- **Portfolio:** [emmanuel-alao-portfolio.vercel.app](https://emmanuel-alao-portfolio.vercel.app)
 
 ## License
 
-No license has been specified in this README. Add a `LICENSE` file if you intend to distribute the project under an open-source license.
+No license has been specified. Add a `LICENSE` file if you intend to distribute the project under an open-source license.
