@@ -8,15 +8,15 @@ A modern landing page project built with TypeScript, React, and Vite, focused on
 
 ### 1. Homepage
 
-![TypeScript Landing Page Homepage](screenshots/homepage.png)
+![TypeScript Landing Page Homepage](homepage1.png)
 
-### 2. Features Section
+### 2. Pricing Section
 
-![TypeScript Landing Page Features](screenshots/features.png)
+![TypeScript Landing Page Features](pricing1.png)
 
-### 3. Responsive Mobile View
+### 3. Contact
 
-![TypeScript Landing Page Mobile View](screenshots/mobile-view.png)
+![TypeScript Landing Page Mobile View](contact1.png)
 
 ## Overview
 
